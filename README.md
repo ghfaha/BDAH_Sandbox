@@ -46,9 +46,9 @@ Ensure the setup doesn’t show any failure in its output.
 ---> Accessing your Kubernetes cluster:
 As part of the Kubernetes creation process, a kubeconfig file has been created and written at kube_config_cluster.yml. 
 
->>Set KUBECONFIG variable to the file generated.
+->Set KUBECONFIG variable to the file generated.
    export KUBECONFIG=./kube_config_cluster.yml
->>Check list of nodes in the cluster.
+->Check list of nodes in the cluster.
    kubectl get nodes 
 
  
